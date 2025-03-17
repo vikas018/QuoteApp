@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Of The Day</title>
+  <link rel="stylesheet" href="./index.css">
+  <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+</head>
+<body id="root">
+  <header>
+    <h1>Quote Of The Day</h1>
+  </header>
+  <section class="container">
+    <h3 id="quote" class="quote-text"></h3>
+    <h5 id="author" class="quote-author"></h5>
+    
+  </section>
+  <div id="notification" class="notification"></div>
+  <div class="button-group">
+    <button class="new-quote" onclick="fetchQuote()">New Quote</button>
+    <button class="share-quote" onclick="shareOnTwitter()">Share on Twitter</button>
+    <button class="copy-quote" onclick="copyQuote()">Copy Quote</button>
+  </div>
+  <footer>
+    <button class="bg-img-change" onclick="bgImgChange()">New Background Image</button>
+    <button class="export-quote" onclick="exportQuote()">Export Quote</button>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>

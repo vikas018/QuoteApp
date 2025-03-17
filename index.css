@@ -1,0 +1,120 @@
+#root {
+  background-color: rgb(61, 58, 58);
+}
+
+header {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #dbdada;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  padding: 10px;
+  position: relative;
+}
+
+.quote-text::before,
+.quote-text::after {
+  content: '"';
+  font-size: 28px;
+  color: #007BFF;
+}
+
+.quote-author {
+  font-size: 18px;
+  color: #d6cece;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+
+button {
+  background: linear-gradient(135deg, #007BFF, #0056b3);
+  color: white;  
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #0056b3, #004099);
+  transform: scale(1.05);
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .quote-text {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+#notification  {
+  bottom: 20px;
+  padding: 10px 20px;
+  opacity: 0;
+  color: #d6cece;
+  display: flex;
+  justify-content: center;
+  transition: opacity 0.5s ease;
+}
+
+#notification.show {
+  opacity: 1;
+}
+
+footer {
+  /* position: fixed; */
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
