@@ -16,7 +16,7 @@ This is a simple web application that fetches and displays a random quote along 
 
 ## 📂 Project Structure
 ```
-/quote-app
+/QuoteApp
 │── index.html
 │── index.js
 │── index.css
@@ -30,7 +30,7 @@ This is a simple web application that fetches and displays a random quote along 
 ## 📦 Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/vikas018/quote-app.git
+   git clone https://github.com/vikas018/QuoteApp.git
    ```
 2. Navigate to the project directory:
    ```sh
@@ -56,7 +56,8 @@ This is a simple web application that fetches and displays a random quote along 
 - **Background Images:** [https://picsum.photos](https://picsum.photos)
 
 ## Screenshot
-![App Screenshot](https://picsum.photos/800/400)
+![App Screenshot](./assets/appView.png)
+![App Diagram](./assets/digram.png)
 
 ## 🤝 Contributing
 Feel free to contribute by forking the repository and submitting a pull request!
