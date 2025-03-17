@@ -1,4 +1,6 @@
-# Quote App
+# Quote App 
+
+**App Link:** [QuoteApp](https://vikas018.github.io/QuoteApp/)
 
 This is a simple web application that fetches and displays a random quote along with its author. It also allows users to:
 - Change the Quote
